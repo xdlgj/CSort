@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5B310D2F2C0197EA0066E57A /* bubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B310D2E2C0197EA0066E57A /* bubbleSort.c */; };
+		5B310D322C01DFB80066E57A /* insertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B310D312C01DFB80066E57A /* insertSort.c */; };
 		5B47ABEE2B4EC2C90041C672 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B47ABED2B4EC2C90041C672 /* main.c */; };
 		5B47ABFB2B4EC5A50041C672 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B47ABFA2B4EC5A50041C672 /* main.c */; };
 		5B47AC042B4ED0BD0041C672 /* selectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B47AC032B4ED0BD0041C672 /* selectSort.c */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		5B310D2D2C0197EA0066E57A /* bubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bubbleSort.h; sourceTree = "<group>"; };
 		5B310D2E2C0197EA0066E57A /* bubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bubbleSort.c; sourceTree = "<group>"; };
+		5B310D302C01DFB80066E57A /* insertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertSort.h; sourceTree = "<group>"; };
+		5B310D312C01DFB80066E57A /* insertSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insertSort.c; sourceTree = "<group>"; };
 		5B47ABEA2B4EC2C90041C672 /* C语言学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C语言学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B47ABED2B4EC2C90041C672 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5B47ABF82B4EC5A50041C672 /* sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sort; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +95,8 @@
 		5B47ABF92B4EC5A50041C672 /* sort */ = {
 			isa = PBXGroup;
 			children = (
+				5B310D312C01DFB80066E57A /* insertSort.c */,
+				5B310D302C01DFB80066E57A /* insertSort.h */,
 				5B310D2E2C0197EA0066E57A /* bubbleSort.c */,
 				5B310D2D2C0197EA0066E57A /* bubbleSort.h */,
 				5B47ABFA2B4EC5A50041C672 /* main.c */,
@@ -189,6 +194,7 @@
 			files = (
 				5B47ABFB2B4EC5A50041C672 /* main.c in Sources */,
 				5B310D2F2C0197EA0066E57A /* bubbleSort.c in Sources */,
+				5B310D322C01DFB80066E57A /* insertSort.c in Sources */,
 				5B47AC042B4ED0BD0041C672 /* selectSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

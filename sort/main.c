@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include "selectSort.h"
 #include "bubbleSort.h"
+#include "insertSort.h"
 
 
 int main(int argc, const char * argv[]) {
@@ -15,7 +16,8 @@ int main(int argc, const char * argv[]) {
     int len = sizeof(list) / sizeof(list[0]);
     //selectSort(list, len); //简单选择排序
     //bubbleSort(list, len); //冒泡排序
-    bubbleSortImprove(list, len); //冒泡排序
+    //bubbleSortImprove(list, len); //冒泡排序
+    insertSort(list, len);
     for (int i = 0; i < len; i ++) {
         printf("%d ", list[i]);
     }
