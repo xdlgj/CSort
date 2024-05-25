@@ -8,7 +8,8 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
+    int age = 18;
     // insert code here...
-    printf("Hello, World!\n");
+    printf("Hello, World!\n %d", age);
     return 0;
 }
