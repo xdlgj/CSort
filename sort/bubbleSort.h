@@ -8,6 +8,7 @@
 #ifndef bubbleSort_h
 #define bubbleSort_h
 
-#include <stdio.h>
+void bubbleSort(int list[], int len);
+void bubbleSortImprove(int list[], int len);
 
 #endif /* bubbleSort_h */
